@@ -14,7 +14,7 @@ public class Hedgehog {
     }
     public void message(String messag){
         if (messag == "") {
-            System.out.println("I am"+name+"my age is "+age+", but could you still give me input value?");
+            System.out.println("I am "+name+" and my age is "+age+", but could you still give me input value?");
         }
         else{
             System.out.println(this.name+": "+messag);
@@ -22,7 +22,7 @@ public class Hedgehog {
     }
     public void run(int lap){
         for(int i=0; i<lap;i++){
-            System.out.println(this.name+"runs really fast!");
+            System.out.println(this.name+" runs really fast!");
         }
     }
 }
